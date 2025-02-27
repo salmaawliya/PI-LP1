@@ -2413,4 +2413,9 @@
 }
 @property --tw-contain-paint {
   syntax: "*";
-  inheri
+  inherits: false;
+}
+@property --tw-contain-style {
+  syntax: "*";
+  inherits: false;
+}
