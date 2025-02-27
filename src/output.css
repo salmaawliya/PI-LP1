@@ -530,6 +530,9 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-0 {
+    height: calc(var(--spacing) * 0);
+  }
   .h-0\.75 {
     height: calc(var(--spacing) * 0.75);
   }
@@ -553,6 +556,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -695,6 +701,9 @@
   }
   .animate-none {
     animation: none;
+  }
+  .cursor-text {
+    cursor: text;
   }
   .touch-pinch-zoom {
     --tw-pinch-zoom: pinch-zoom;
