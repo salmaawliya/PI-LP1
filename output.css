@@ -267,6 +267,9 @@
   .isolation-auto {
     isolation: auto;
   }
+  .z-4 {
+    z-index: 4;
+  }
   .z-auto {
     z-index: auto;
   }
@@ -2383,4 +2386,13 @@
 }
 @property --tw-contain-layout {
   syntax: "*";
-  i
+  inherits: false;
+}
+@property --tw-contain-paint {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-contain-style {
+  syntax: "*";
+  inherits: false;
+}
