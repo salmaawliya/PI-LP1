@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";  // Ubah jika MySQL menggunakan user lain
-$pass = "";      // Isi jika ada password
-$db   = "landing_page_db";
+$pass = "Qwerty123";      // Isi jika ada password
+$db   = "pi-lp1-db";  // Isi nama database
 
 $conn = new mysqli($host, $user, $pass, $db);
 
